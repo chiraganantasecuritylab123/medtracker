@@ -46,7 +46,6 @@ function WhyChoose() {
           <p className='w-[70%]'>Choosing Medtracker as a medication tracking and pharmacy information platform can offer several benefits to both users and pharmacies, Here are some reasons why:</p>
           </div>
           </div> */}
-
         <div className='container relative'>
           <div className='pt-16 pb-[300px]'>
             <div className='flex flex-row'>

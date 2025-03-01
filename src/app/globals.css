@@ -5,6 +5,7 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --primary: #0B295A;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -13,14 +14,26 @@
     --foreground: #ededed;
   }
 }
-
+.graient-btn{
+  background-color:rgb(39, 94, 246);
+  box-shadow: rgb(255, 255, 255) 2px 2px 20px 2px inset;  
+}
+.info-btn{
+  background-color:rgb(76, 191, 155);
+  box-shadow: rgb(246, 247, 245) 4px 4px 40px inset;
+}
 body {
   font-family: Poppins, sans-serif;
-  margin-bottom: 400px;
+  
 }
 .container{
   margin: 0 auto;
 }
+html, body {
+  overflow-x: hidden !important;
+  width: 100vw !important;
+}
+
 
 .choos-cart{
     display: flex;
@@ -49,3 +62,22 @@ body {
     font-weight: 400;
     color: #54698b;
 }
+.footer-cart {
+  display: flex;
+  background-color: #fff;
+ 
+  border-radius: 20px;
+  z-index: 100;
+  box-shadow: 0 5px 25px #00000014;
+  position: relative;
+  overflow: visible; 
+}
+
+.footer-cart img {
+  max-width: 400px;
+  height: 700px;
+  position: absolute;
+  right: 50px; 
+  bottom: 0; 
+}
+

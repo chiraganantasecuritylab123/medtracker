@@ -10,9 +10,10 @@ export default {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        primary: "var(--primary)",
       },
       fontFamily: {
-        poppins: ['Poppins', 'sans-serif'],
+        poppins: ["Poppins", "sans-serif"],
       },
     },
   },

@@ -28,13 +28,15 @@ function PatientJourney() {
                 No need to imagine, it’s here.
               </h1>
               <div data-aos="fade-up" className="flex flex-col">
-                {features?.map((e) => (
-                  <div className="mt-10  font-normal flex gap-6 items-start">
+                {features?.map((e, index) => (
+                  <div
+                    key={index}
+                    className="mt-10 font-normal flex gap-6 items-start"
+                  >
                     <div className="aspect-square max-w-10 pt-1">
                       <Image
                         src="/assets/ok.png"
                         width={34}
-                        className=""
                         height={30}
                         alt="mobile"
                       />
@@ -44,8 +46,6 @@ function PatientJourney() {
                     </p>
                   </div>
                 ))}
-
-                {/* </div> */}
                 <div data-aos="fade-up" className="mt-16">
                   <div className="text-gray-300 lg:text-3xl md:text-2xl text-xl">
                     In Partnership With

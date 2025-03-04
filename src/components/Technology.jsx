@@ -3,8 +3,7 @@ import React from "react";
 export function TrustedTechnology({ title, description }) {
   return (
     <div className="bg-[#f1f7fc]">
-      <div className="2xl container  mx-auto">
-        {/* <Header /> */}
+      <div className="2xl container mx-auto">
         <div className="pt-20 flex justify-center font-poppins font-semibold">
           <div className="text-white text-center ">
             <div className="flex justify-center">
@@ -17,7 +16,7 @@ export function TrustedTechnology({ title, description }) {
             </div>
             <div
               data-aos="fade-up"
-              className="mt-12 text-[#4a6184] lg:w-[70%] w-[40%] font-normal mx-auto lg:text-2xl md:text-xl text-lg"
+              className="mt-12 text-[#4a6184] w-[70%] font-normal mx-auto lg:text-2xl md:text-xl text-lg"
             >
               <p>{description}</p>
             </div>
@@ -30,7 +29,7 @@ export function TrustedTechnology({ title, description }) {
               </div>
               <div
                 data-aos="zoom-in"
-                className="text-[#005eb8] font-bold font-sans  lg:text-9xl md:text-7xl text-5xl my-7"
+                className="text-[#005eb8] font-bold font-sans lg:text-9xl md:text-7xl text-5xl my-7"
               >
                 IM1
               </div>
